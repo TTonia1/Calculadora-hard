@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146, 139, 139);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#calculadorinha{
+    background-color: rgb(39, 35, 35);
+    max-width: 450px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#display{
+    width: 91%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(65, 60, 60);
+    color: white;
+}
+
+.operacao{
+    background-color: orange;
+}

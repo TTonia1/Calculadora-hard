@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="ladinho">
+        <div id="calculadorinha">
+            <input id="display" readonly>
+           <div>
+                <button onclick="clear()" class="operacao">C</button>
+                <button onclick="appentToDisplay('7')">7</button>
+                <button onclick="appentToDisplay('8')" >8</button>
+                <button onclick="appentToDisplay('9')">9</button>
+           </div> 
+           <div>
+                <button onclick="appentToDisplay('-')" class="operacao">-</button>
+                <button onclick="appentToDisplay('4')">4</button>
+                <button onclick="appentToDisplay('5')">5</button>
+                <button onclick="appentToDisplay('6')">6</button>
+           </div>
+           <div>
+                <button onclick="numerinho('+')" class="operacao">+</button>
+                <button onclick="numerinho('1')">1</button>
+                <button onclick="numerinho('2')">2</button>
+                <button onclick="numerinho('3')">3</button>
+           </div>
+           <div>
+                <button onclick="numerinho('*')" class="operacao">*</button>
+                <button onclick="numerinho('0')">0</button>
+                <button onclick="numerinho('.')">.</button>
+                <button onclick="calcular()" class="operacao">=</button>
+           </div>
+           <div>
+                <button onclick="numerinho('/')" class="operacao">/</button>
+           </div>
+        </div>
+    </section>
+</body>
+</html>
